@@ -3,7 +3,7 @@
 
 <?php
 session_start();
-include('../config/db.php');
+include('db.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (password_verify($password, $row['password'])) {
             $_SESSION['user'] = $row['username'];
-            header("Location: ../dashboard/dashboard.php");
+            header("Location: dashboard.php");
         } else {
             echo "Wrong password";
         }
