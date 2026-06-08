@@ -1,0 +1,100 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fb;
+    color: #2e0357;
+}
+
+/* HEADER */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #1035da;
+}
+
+/* CARD STYLE */
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* VITAL SIGNS */
+.heart {
+    color: #e74c3c;
+    font-size: 28px;
+}
+
+.temp {
+    color: #3498db;
+    font-size: 28px;
+}
+
+/* ALERT */
+.alert {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+button, a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #3498db;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, a:hover {
+    background: #2980b9;
+}
+
+/* CHART */
+canvas {
+    margin: 30px auto;
+    display: block;
+    max-width: 600px;
+}
+/* LOGOUT CONTAINER */
+.logout-container {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    margin-top: 20px;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
