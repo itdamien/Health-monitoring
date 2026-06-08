@@ -1,5 +1,5 @@
 <?php
-include('config/db.php');
+include('db.php');
 
 $username = "doctor1";
 $password = password_hash("doctor123", PASSWORD_DEFAULT);
