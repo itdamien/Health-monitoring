@@ -1,5 +1,5 @@
 <?php
-include('../config/db.php');
+include('db.php');
 
 $sql = "SELECT * FROM health_info ORDER BY created_at DESC LIMIT 20";
 $result = $conn->query($sql);
