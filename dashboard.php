@@ -3,11 +3,11 @@
 <?php
 session_start();
 if (!isset($_SESSION['user'])) {
-    header("Location: ../auth/login.php");
+    header("Location: login.php");
     exit();
 }
 
-include('../config/db.php');
+include('db.php');
 
 // Latest reading
 $sql = "SELECT * FROM health_info ORDER BY created_at DESC LIMIT 1";
