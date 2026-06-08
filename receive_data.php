@@ -1,5 +1,5 @@
 <?php
-include('../config/db.php');
+include('db.php');
 
 $patient_id = $_POST['patient_id'] ?? $_GET['patient_id'];
 $heart_rate = $_POST['heart_rate'] ?? $_GET['heart_rate'];
